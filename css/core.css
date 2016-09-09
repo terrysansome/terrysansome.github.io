@@ -232,6 +232,9 @@ footer .icon-phone {
 	max-width: 15em;
 	vertical-align:middle;
 }
+.logo-height {
+		height:1.625em;
+}
 
 .nav-bar {
 	border-top: none;
