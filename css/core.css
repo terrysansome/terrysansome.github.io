@@ -111,12 +111,6 @@ h1 {
 }
 }
 
-@media screen and (max-height: 24em) {
-h1 {
-	font-size: 1em;
-	padding-top:5em;
-}
-}
 /********************************
 *
 *  I C O N S
@@ -338,7 +332,7 @@ footer .icon-phone {
 }
 }
 
-@media screen and (max-height: 22em) {
+@media screen and (max-height: 24em) {
 .intro-logo {
 	display:none;
 }
