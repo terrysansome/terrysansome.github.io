@@ -234,6 +234,7 @@ footer .icon-phone {
 }
 .logo-height {
 		height:1.625em;
+		width: 15rem;
 }
 
 .nav-bar {
@@ -251,6 +252,9 @@ footer .icon-phone {
 
 .nav-bar li {
 	display: inline-block;
+}
+
+.nav-bar li:not(:last-child) {
 	padding-right: 1.5em;
 }
 
@@ -281,8 +285,11 @@ footer .icon-phone {
 	.nav-bar {
 		width:100%;
 	}
-	.nav-bar li:last-child {
-		padding-right: 0;
+	.nav-bar li:not(:last-child) {
+		padding-right: 0.5em;
+	}
+	.nav-bar li {
+		font-size: 0.875rem;
 	}
 	.top-bar .wrapper {
 		padding-right: 1.5em;
@@ -352,7 +359,15 @@ footer .icon-phone {
 	margin: 0 0 2em 0;
 	border-bottom:0.5em solid #d98a0c;
 }
+.accreditations-image {
+	margin: 0 auto 2em auto;
+}
 
+@media screen and (min-width: 48em) {
+	.accreditations-image {
+		width: 50%;
+	}
+}
 /**************************************
  *
  *	  C O N T E N T    B L O C K S
@@ -380,10 +395,10 @@ padding-left: 1.5em;
 @media screen and (max-width:48em) {
 
 	.col-1-2, .col-1-3, .col-2-3, .col-1-4, .col-3-4 {width: 100%;}
-	
+
 	.col-1-4  {width: 50%;
 					padding-bottom: 2em;}
-	
+
 	.col-1-4:nth-child(4) {
 		clear: left;
 	}
@@ -469,4 +484,3 @@ padding-left: 1.5em;
 footer .wrapper {
 	padding-left: 0;
 }
-
