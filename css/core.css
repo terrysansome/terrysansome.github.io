@@ -363,25 +363,21 @@ footer .icon-phone {
 	margin: 0 auto 2em auto;
 }
 
-@media screen and (min-width: 48em) {
-	.accreditations-image {
-		width: 50%;
-	}
-}
+
 /**************************************
  *
  *	  C O N T E N T    B L O C K S
  *
  *************************************/
 [class*='col-'] {
-float: left;
-position: relative;
-padding-right: 1.5em;
-width: 100%;
+	float: left;
+	position: relative;
+	padding-right: 1.5em;
+	width: 100%;
 }
 
 .col-1-4 ul {
-padding-left: 1.5em;
+	padding-left: 1.5em;
 }
 
 .col-1-2 {width: 50%;}
@@ -458,6 +454,13 @@ padding-left: 1.5em;
 .pad-y {
 	padding-top: 3em;
 	padding-bottom: 3em;
+}
+
+@media screen and (min-width: 64em) {
+	.pad-x {
+		padding-right: 7em;
+		padding-left: 7em;
+	}
 }
 
 /**************************************
